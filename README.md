@@ -38,8 +38,8 @@ If you would like to contribute to the development of this plugin, feel free to 
 
 ## Authors
 
-- **FrankV22**: Main developer.
-- **Soofa**: Contributor.
+- **[FrankV22](https://github.com/itsFrankV22)**: Main Developer.
+- **[Soofa](https://github.com/Soof4) Contributor
 
 ## License
 
