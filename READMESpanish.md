@@ -35,8 +35,8 @@ Si deseas contribuir al desarrollo de este plugin, no dudes en hacer un fork del
 
 ## Autores
 
-- **FrankV22**: Desarrollador principal.
-- **Soofa**: Colaborador.
+- **[FrankV22](https://github.com/itsFrankV22)**: Desarrollador principal.
+- **[Soofa](https://github.com/Soof4)**: Colaborador.
 
 ## Licencia
 
