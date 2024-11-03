@@ -1,6 +1,6 @@
 # Item Suffix Plugin
 
-Si hablas Español visita este repostirio en idioma: [Spanish]()
+Si hablas Español visita este repostirio en idioma: [Spanish](https://github.com/itsFrankV22/ItemSuffixBelowName/blob/master/READMESpanish.md)
 
 
 ## Description
