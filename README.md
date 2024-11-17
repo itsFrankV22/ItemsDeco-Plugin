@@ -1,54 +1,55 @@
-# Item Suffix Plugin
-
+# ItemDeco
 Si hablas Español visita este repositorio en idioma: [Spanish](https://github.com/itsFrankV22/ItemSuffixBelowName/blob/master/READMESpanish.md)
 
+## Descripción
 
-## Description
+El **Plugin Item Suffix** es una extensión para **TShock** que permite a los jugadores ver el nombre del ítem que están sosteniendo en la mano como un mensaje flotante sobre su personaje. Este mensaje se mostrará cada vez que el jugador cambie el ítem en su mano, proporcionando una manera fácil de identificar rápidamente qué ítem está utilizando.
 
-The **Item Suffix Plugin** is an add-on for **TShock** that allows players to see the name of the item they are holding in their hand as a floating message above their character. This message will be displayed every time the player changes the item in their hand, providing an easy way to quickly identify which item they are using.
+## Características
 
-## Features
+- **Mostrar el nombre del ítem**: Siempre que un jugador cambie el ítem que sostiene, el nombre de ese ítem aparecerá como un mensaje flotante sobre su cabeza.
+- **Personalización de colores**: Los mensajes flotantes se mostrarán en un color predefinido (actualmente configurado en cian).
+- **Soporte para configuración externa**: El plugin ahora permite cargar la configuración desde un archivo JSON externo llamado `ItemDecoConfig.json` dentro de la carpeta `tshock/ItemDeco/` para personalizar los colores y la visualización.
+- **Configuración predeterminada**: Si el archivo de configuración no existe, se genera automáticamente con una configuración predeterminada.
 
-- **Show Item Name**: Whenever a player changes the item they are holding, the name of that item will appear as a floating message.
-- **Color Customization**: The floating messages will be displayed in a predefined color (currently set to cyan).
+## Instalación
 
-## Installation
+1. **Descargar el plugin**: Obtén el archivo DLL del plugin.
+2. **Colocar en la carpeta de plugins**: Copia el archivo DLL en la carpeta `plugins` de tu instalación de TShock.
+3. **Reiniciar el servidor**: Reinicia el servidor para cargar el plugin.
+4. **Activar el plugin**: Asegúrate de que el plugin esté activado en la configuración de TShock.
 
-1. **Download the Plugin**: Obtain the DLL file for the plugin.
-2. **Place in the Plugins Folder**: Copy the DLL file into the `plugins` folder of your TShock installation.
-3. **Restart the Server**: Restart your server to load the plugin.
-4. **Activate the Plugin**: Ensure that the plugin is activated in TShock's configuration.
+## Uso
 
-## Usage
+- Una vez instalado y activado, no se requieren comandos adicionales. El plugin comenzará a funcionar automáticamente, mostrando el nombre del ítem cuando cambies de objeto.
+- El archivo de configuración `ItemDecoConfig.json` se encuentra en la carpeta `tshock/ItemDeco/` y permite personalizar los colores de los mensajes flotantes y otros parámetros. Si el archivo no existe, se generará con una configuración predeterminada.
 
-- Once installed and activated, no additional commands are required. The plugin will start functioning automatically, displaying the name of the item when you change objects.
+## Permisos
 
-## Permissions
+No se requieren permisos específicos para usar este plugin. Todos los jugadores podrán ver el nombre del ítem que están sosteniendo.
 
-No specific permissions are required to use this plugin. All players will be able to see the name of the item they are holding.
+## Requisitos
 
-## Requirements
+- **TShock**: Este plugin requiere tener una instalación de TShock para Terraria.
+- **Versión de TShock**: Este plugin está diseñado para trabajar con la API de TShock v2.1.
 
-- **TShock**: This plugin requires that you have an installation of TShock for Terraria.
-- **TShock Version**: This plugin is designed to work with TShock API v2.1.
+## Contribuciones
 
-## Contributions
+Si deseas contribuir al desarrollo de este plugin, siéntete libre de bifurcar el repositorio y enviar tus mejoras o correcciones. Cualquier retroalimentación es muy apreciada.
 
-If you would like to contribute to the development of this plugin, feel free to fork the repository and submit your improvements or fixes. Any feedback is greatly appreciated.
+## Autores
 
-## Authors
+- **[FrankV22](https://github.com/itsFrankV22)**: Desarrollador principal.
+- **[Soofa](https://github.com/Soof4)**: Colaborador.
 
-- **[FrankV22](https://github.com/itsFrankV22)**: Main Developer.
-- **[Soofa](https://github.com/Soof4)** Contributor
+## Licencia
 
-## License
+Este proyecto está bajo la licencia MIT. Para más detalles, consulta el archivo LICENSE.
 
-This project is licensed under the MIT License. For more details, please refer to the LICENSE file.
+## Soporte
 
-## Support
-
-If you encounter any issues or have questions, please feel free to open an issue in the repository or contact us directly.
+Si encuentras algún problema o tienes preguntas, no dudes en abrir un problema en el repositorio o contactarnos directamente.
 
 ---
 
-Enjoy using the **Item Suffix Plugin** and enhance your experience in Terraria!
+¡Disfruta usando el **ItemDecoPlugin** y mejora tu experiencia en Terraria!
