@@ -4,11 +4,11 @@ If you speak another language please visit: [English](https://github.com/itsFran
 
 ## Descripción
 
-El **Plugin Item Suffix** es una extensión para **TShock** que permite a los jugadores ver el nombre del ítem que están sosteniendo en la mano como un mensaje flotante sobre su personaje. Este mensaje se mostrará cada vez que el jugador cambie el ítem en su mano, proporcionando una manera fácil de identificar rápidamente qué ítem está utilizando.
+El **Plugin Item Suffix** es una extensión para **TShock** que permite a los jugadores ver el nombre del ítem que están sosteniendo en la mano como un mensaje flotante sobre su personaje. Este mensaje se mostrará cada vez que el jugador cambie el ítem en su mano, proporcionando una manera fácil de identificar rápidamente qué ítem está utilizando. Tambien muestra el item que tienen en la mano al final de cada oracion en sus mensajes, todo configurable en la config del plugin
 
 ## Características
 
-- **Mostrar el nombre del ítem**: Siempre que un jugador cambie el ítem que sostiene, el nombre de ese ítem aparecerá como un mensaje flotante sobre su cabeza.
+- **Mostrar el nombre del ítem**: Siempre que un jugador cambie el ítem que sostiene, el nombre de ese ítem aparecerá como un mensaje flotante sobre su cabeza. y al final de cada oracion en los mensajes
 - **Personalización de colores**: Los mensajes flotantes se mostrarán en un color predefinido (actualmente configurado en cian).
 - **Soporte para configuración externa**: El plugin ahora permite cargar la configuración desde un archivo JSON externo llamado `ItemDecoConfig.json` dentro de la carpeta `tshock/ItemDeco/` para personalizar los colores y la visualización.
 - **Configuración predeterminada**: Si el archivo de configuración no existe, se genera automáticamente con una configuración predeterminada.
