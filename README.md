@@ -4,7 +4,7 @@ Si hablas otro idioma por favor visita: [Spanish](https://github.com/itsFrankV22
 
 ## Description
 
-The **Item Suffix Plugin** is an add-on for **TShock** that allows players to see the name of the item they are holding in their hand as a floating message above their character. This message will be displayed every time the player changes the item in their hand, providing an easy way to quickly identify which item they are using.
+The **ItemDecoPlugin** is an add-on for **TShock** that allows players to see the name of the item they are holding in their hand as a floating message above their character. This message will be displayed every time the player changes the item in their hand, providing an easy way to quickly identify which item they are using.
 
 ## Features
 
