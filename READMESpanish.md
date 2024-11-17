@@ -1,6 +1,6 @@
 # ItemDeco Plugin
 
-Si hablas Español visita este repositorio en idioma: [Spanish](https://github.com/itsFrankV22/ItemSuffixBelowName/blob/master/READMESpanish.md)
+Si hablas Español visita este repositorio en idioma: [English](https://github.com/itsFrankV22/ItemSuffixBelowName/blob/master/README.md)
 
 ## Descripción
 
