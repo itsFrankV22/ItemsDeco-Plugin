@@ -4,24 +4,23 @@ If you speak another language please visit: [English](https://github.com/itsFran
 
 ## Descripción
 
-El **Plugin Item Suffix** es una extensión para **TShock** que permite a los jugadores ver el nombre del ítem que están sosteniendo en la mano como un mensaje flotante sobre su personaje. Este mensaje se mostrará cada vez que el jugador cambie el ítem en su mano, proporcionando una manera fácil de identificar rápidamente qué ítem está utilizando. Tambien muestra el item que tienen en la mano al final de cada oracion en sus mensajes, todo configurable en la config del plugin
+El **Plugin Item Suffix** es una extensión para **TShock** que muestra una decoracion en el chat y como mensajes flotantes sobre el jugador, de lo que estan sosteniendo en la mano, se puede configurar en el archivo de config
 
 ## Características
 
-- **Mostrar el nombre del ítem**: Siempre que un jugador cambie el ítem que sostiene, el nombre de ese ítem aparecerá como un mensaje flotante sobre su cabeza. y al final de cada oracion en los mensajes
-- **Personalización de colores**: Los mensajes flotantes se mostrarán en un color predefinido (actualmente configurado en cian).
+- **Mostrar el nombre del ítem**: Siempre que un jugador cambie el ítem que sostiene, el nombre de ese ítem aparecerá como un mensaje flotante sobre su cabeza. y en el chat, tambien muestra damage y se puede alternar en la config
+- **Personalización de colores**: Los mensajes flotantes se mostrarán en un color predefinido (actualmente configurado en blanco osea 255,255,255).
 - **Soporte para configuración externa**: El plugin ahora permite cargar la configuración desde un archivo JSON externo llamado `ItemDecoConfig.json` dentro de la carpeta `tshock/ItemDeco/` para personalizar los colores y la visualización.
-- **Configuración predeterminada**: Si el archivo de configuración no existe, se genera automáticamente con una configuración predeterminada.
 
 ## Instalación
 
 1. **Descargar el plugin**: Obtén el archivo DLL del plugin.
 2. **Colocar en la carpeta de plugins**: Copia el archivo DLL en la carpeta `plugins` de tu instalación de TShock.
 3. **Reiniciar el servidor**: Reinicia el servidor para cargar el plugin.
-4. **Activar el plugin**: Asegúrate de que el plugin esté activado en la configuración de TShock.
 
 ## Uso
 
+- Generalmente hago codigos PlugAndPlay asi que puedes usarlo sin tocar nada.
 - Una vez instalado y activado, no se requieren comandos adicionales. El plugin comenzará a funcionar automáticamente, mostrando el nombre del ítem cuando cambies de objeto.
 - El archivo de configuración `ItemDecoConfig.json` se encuentra en la carpeta `tshock/ItemDeco/` y permite personalizar los colores de los mensajes flotantes y otros parámetros. Si el archivo no existe, se generará con una configuración predeterminada.
 
