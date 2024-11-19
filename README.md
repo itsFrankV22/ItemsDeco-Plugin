@@ -1,7 +1,7 @@
 # ItemDeco Plugin
 - Now Compatible with **[Floating-MessageChat](https://github.com/itsFrankV22/FloatingText-Chat)**
 
-Si hablas otro idioma por favor visita: [Spanish](https://github.com/itsFrankV22/ItemSuffixBelowName/blob/master/READMESpanish.md)
+Si hablas otro idioma por favor visita: **[Spanish](https://github.com/itsFrankV22/ItemSuffixBelowName/blob/master/READMESpanish.md)**
 
 ## Description
 
