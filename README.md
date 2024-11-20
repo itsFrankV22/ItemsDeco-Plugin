@@ -4,10 +4,7 @@
 Si hablas otro idioma por favor visita: **[Spanish](https://github.com/itsFrankV22/ItemSuffixBelowName/blob/master/READMESpanish.md)**
 
 ## Video Testing Plugin
-
-
-Uploading 1000069698.mp4…
-
+coming soon...
 
 ## Description
 
