@@ -3,6 +3,7 @@
 - 现已兼容 **[Floating-MessageChat](https://github.com/itsFrankV22/FloatingText-Chat)**
 
 Si hablas otro idioma por favor visita: **[Spanish](https://github.com/itsFrankV22/ItemSuffixBelowName/blob/master/READMESpanish.md)**
+If you speak another language please visit: **[English](https://github.com/itsFrankV22/ItemSuffixBelowName/blob/master/README.md)**
 
 ## 描述
 
