@@ -3,6 +3,9 @@
 
 If you speak another language please visit: **[English](https://github.com/itsFrankV22/ItemSuffixBelowName/blob/master/README.md)**
 
+## Video Testing Plugin
+coming soon...
+
 ## Descripción
 
 El **Plugin Item Suffix** es una extensión para **TShock** que muestra una decoracion en el chat y como mensajes flotantes sobre el jugador, de lo que estan sosteniendo en la mano, se puede configurar en el archivo de config
