@@ -43,7 +43,8 @@
 ## 作者
 
 - **[FrankV22](https://github.com/itsFrankV22)**：主开发者  
-- **[Soofa](https://github.com/Soof4)**：贡献者  
+- **[Soofa](https://github.com/Soof4)**：贡献者
+- **[THENNX](https://github.com/THEXN)**: 合作者和支持中文
 
 ## 许可协议
 
