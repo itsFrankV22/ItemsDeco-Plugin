@@ -46,7 +46,7 @@ Si deseas contribuir al desarrollo de este plugin, siéntete libre de bifurcar e
 
 - **[FrankV22](https://github.com/itsFrankV22)**: Desarrollador principal.
 - **[Soofa](https://github.com/Soof4)**: Colaborador.
-- **[THENNX](https://github.com/THEXN)**: Colaborador.
+- **[THENX](https://github.com/THEXN)**: Colaborador.
 
 ## Licencia
 
