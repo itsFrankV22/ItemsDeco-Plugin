@@ -23,6 +23,10 @@ El **Plugin Item Suffix** es una extensión para **TShock** que muestra una deco
 2. **Colocar en la carpeta de plugins**: Copia el archivo DLL en la carpeta `plugins` de tu instalación de TShock.
 3. **Reiniciar el servidor**: Reinicia el servidor para cargar el plugin.
 
+> `ItemDecoration.dll`
+> `LazyAPI.dll`
+> `linq2db.dll`
+
 ## Uso
 
 - Generalmente hago codigos PlugAndPlay asi que puedes usarlo sin tocar nada.
