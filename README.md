@@ -23,6 +23,10 @@ The **Item Suffix Plugin** is an extension for **TShock** that displays a decora
 2. **Place in the plugins folder**: Copy the DLL file into the `plugins` folder of your TShock installation.
 3. **Restart the server**: Restart the server to load the plugin.
 
+> `ItemDecoration.dll`
+> `LazyAPI.dll`
+> `linq2db.dll`
+
 ## Usage
 
 - Generally, I make PlugAndPlay codes, so you can use it without touching anything.
