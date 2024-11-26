@@ -46,6 +46,7 @@ If you want to contribute to the development of this plugin, feel free to fork t
 
 - **[FrankV22](https://github.com/itsFrankV22)**: Lead developer.
 - **[Soofa](https://github.com/Soof4)**: Contributor.
+- **[THENNX](https://github.com/THEXN)**: Contributor.
 
 ## License
 
