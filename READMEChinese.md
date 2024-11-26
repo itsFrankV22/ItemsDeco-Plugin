@@ -21,6 +21,10 @@
 2. **放置到插件文件夹**：将 DLL 文件复制到 TShock 安装目录下的 `plugins` 文件夹。
 3. **重启服务器**：重启服务器以加载插件。
 
+> `ItemDecoration.dll`
+> `LazyAPI.dll`
+> `linq2db.dll`
+
 ## 使用方法
 
 - 插件是即插即用的，安装后无需额外操作。
