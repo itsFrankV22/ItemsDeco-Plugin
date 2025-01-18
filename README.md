@@ -12,7 +12,7 @@ coming soon...
 The **Item Suffix Plugin** is an extension for **TShock** that displays a decoration in the chat and as floating messages above the player, showing what they are holding in their hand. It can be configured in the config file.
 
 ## Features
-
+- **Show Item Spryte Above Head Player** Displays the spryte of the item the player has selected above his head, as if it were the WeaponsOut mod
 - **Show item name**: Whenever a player changes the item they are holding, the name of that item will appear as a floating message above their head and in the chat. It also shows damage, and this can be toggled in the config.
 - **Color customization**: The floating messages will be displayed in a predefined color (currently set to white, i.e., 255,255,255).
 - **External configuration support**: The plugin now allows loading the configuration from an external JSON file called `ItemDecoConfig.json` inside the `tshock/ItemDeco/` folder to customize the colors and display.
