@@ -1,5 +1,5 @@
 # ItemDeco Plugin
-- Ahora compatible con **[Floating-MessageChat](https://github.com/itsFrankV22/FloatingText-Chat)**
+**Ahora compatible con** **[Floating-MessageChat](https://github.com/itsFrankV22/FloatingText-Chat)**
 
 - If you speak another language please visit: **[English](https://github.com/itsFrankV22/ItemSuffixBelowName/blob/master/README.md)**
 - 如果您使用其他语言，请访问：**[中文](https://github.com/itsFrankV22/ItemSuffixBelowName/blob/master/READMEChinese.md)**
@@ -12,7 +12,7 @@ coming soon...
 El **Plugin Item Suffix** es una extensión para **TShock** que muestra una decoracion en el chat y como mensajes flotantes sobre el jugador, de lo que estan sosteniendo en la mano, se puede configurar en el archivo de config
 
 ## Características
-
+- **Mostrar spryte del elemento sobre la cabeza del jugador:** Muestra el spryte del elemento que el jugador ha seleccionado sobre su cabeza, como si fuera el mod WeaponsOut
 - **Mostrar el nombre del ítem**: Siempre que un jugador cambie el ítem que sostiene, el nombre de ese ítem aparecerá como un mensaje flotante sobre su cabeza. y en el chat, tambien muestra damage y se puede alternar en la config
 - **Personalización de colores**: Los mensajes flotantes se mostrarán en un color predefinido (actualmente configurado en blanco osea 255,255,255).
 - **Soporte para configuración externa**: El plugin ahora permite cargar la configuración desde un archivo JSON externo llamado `ItemDecoConfig.json` dentro de la carpeta `tshock/ItemDeco/` para personalizar los colores y la visualización.
