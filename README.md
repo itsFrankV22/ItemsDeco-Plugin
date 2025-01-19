@@ -5,7 +5,8 @@
 - 如果您使用其他语言，请访问：**[中文](https://github.com/itsFrankV22/ItemSuffixBelowName/blob/master/READMEChinese.md)**
 
 ## Examples
-![image](https://github.com/user-attachments/assets/6965e9a5-79b1-4c30-aeab-b4db51bb9309) ![image](https://github.com/user-attachments/assets/7331d281-1717-4141-bae7-0d43eea437ad)
+![image](https://github.com/user-attachments/assets/6965e9a5-79b1-4c30-aeab-b4db51bb9309)
+![image](https://github.com/user-attachments/assets/7331d281-1717-4141-bae7-0d43eea437ad)
 
 
 
