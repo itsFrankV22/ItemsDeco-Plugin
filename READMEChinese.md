@@ -5,6 +5,12 @@
 - Si hablas otro idioma por favor visita: **[Spanish](https://github.com/itsFrankV22/ItemSuffixBelowName/blob/master/READMESpanish.md)**
 - If you speak another language please visit: **[English](https://github.com/itsFrankV22/ItemSuffixBelowName/blob/master/README.md)**
 
+## Examples
+![image](https://github.com/user-attachments/assets/6965e9a5-79b1-4c30-aeab-b4db51bb9309)
+![image](https://github.com/user-attachments/assets/7331d281-1717-4141-bae7-0d43eea437ad)
+
+
+
 ## 描述
 
 **Item Suffix 插件**是 **TShock** 的一个扩展插件，它会在聊天中以及玩家头顶以浮动消息的形式显示玩家手中正在持有的物品。可以通过配置文件进行设置。
