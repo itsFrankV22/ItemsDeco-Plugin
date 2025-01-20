@@ -1,4 +1,4 @@
-# ItemDeco Plugin
+# ItemsDeco Plugin
 **Now Compatible with** **[Floating-MessageChat](https://github.com/itsFrankV22/FloatingText-Chat)**
 
 - Si hablas otro idioma por favor visita: **[Spanish](https://github.com/itsFrankV22/ItemSuffixBelowName/blob/master/READMESpanish.md)**
@@ -12,7 +12,7 @@
 
 ## Description
 
-The **Item Suffix Plugin** is an extension for **TShock** that displays a decoration in the chat and as floating messages above the player, showing what they are holding in their hand. It can be configured in the config file.
+The **ItemsDeco** is an extension for **TShock** that displays a decoration in the chat and as floating messages above the player, showing what they are holding in their hand. It can be configured in the config file.
 
 ## Features
 - **Show Item Spryte Above Head Player** Displays the spryte of the item the player has selected above his head, as if it were the WeaponsOut mod
