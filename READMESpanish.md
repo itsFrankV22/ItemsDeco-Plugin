@@ -1,5 +1,6 @@
 # ItemDeco Plugin
 **Ahora compatible con** **[Floating-MessageChat](https://github.com/itsFrankV22/FloatingText-Chat)**
+
 **Not compatible with the new version of TRC by Narnia (We are working on fixing it)**
 
 - If you speak another language please visit: **[English](https://github.com/itsFrankV22/ItemSuffixBelowName/blob/master/README.md)**
