@@ -1,72 +1,30 @@
-# ItemsDeco Plugin
-- **Now Compatible with** **[Floating-MessageChat](https://github.com/itsFrankV22/FloatingText-Chat)**
+ItemsDecoPlugin
 
-- **Not compatible with the new version of TRC by Narnia (We are working on fixing it)**
+- **No es compatible con la nueva versión de TRC de Narnia (Estamos trabajando para solucionarlo)** - ## Descripción **ItemsDeco** es una extensión para **TShock** que muestra una decoración en el chat y mensajes flotantes sobre el jugador, mostrando lo que tiene en la mano. Se puede configurar en el archivo de configuración.
 
+## Características - **Mostrar objeto Spryte encima de la cabeza del jugador** Muestra el objeto del elemento que el jugador ha seleccionado encima de su cabeza, como si fuera el mod WeaponsOut. - **Mostrar nombre del elemento**: cada vez que un jugador cambia el elemento que tiene, el nombre de ese elemento aparecerá como un mensaje flotante sobre su cabeza y en el chat. También muestra daños y esto se puede alternar en la configuración. - **Personalización del color**: los mensajes flotantes se mostrarán en un color predefinido (actualmente configurado en blanco, es decir, 255,255,255). - **Soporte de configuración externa**: el complemento ahora permite cargar la configuración desde un archivo JSON externo llamado `ItemDecoConfig.json` dentro de la carpeta `tshock\ItemDeco` para personalizar los colores y la visualización.
 
-- Si hablas otro idioma por favor visita: **[Spanish](https://github.com/itsFrankV22/ItemSuffixBelowName/blob/master/READMESpanish.md)**
-- 如果您使用其他语言，请访问：**[中文](https://github.com/itsFrankV22/ItemSuffixBelowName/blob/master/READMEChinese.md)**
+## Instalación 
 
-## Examples
-![image](https://github.com/user-attachments/assets/6965e9a5-79b1-4c30-aeab-b4db51bb9309)
-![image](https://github.com/user-attachments/assets/7331d281-1717-4141-bae7-0d43eea437ad)
+1. **Descargue el complemento**: obtenga el archivo DLL del complemento.
+2. **Colocar en la carpeta de complementos**: Copie el archivo DLL en la carpeta `plugins` de su instalación de TShock.
+3. **Reinicie el servidor**: reinicie el servidor para cargar el complemento
 
-
-
-## Description
-
-The **ItemsDeco** is an extension for **TShock** that displays a decoration in the chat and as floating messages above the player, showing what they are holding in their hand. It can be configured in the config file.
-
-## Features
-- **Show Item Spryte Above Head Player** Displays the spryte of the item the player has selected above his head, as if it were the WeaponsOut mod
-- **Show item name**: Whenever a player changes the item they are holding, the name of that item will appear as a floating message above their head and in the chat. It also shows damage, and this can be toggled in the config.
-- **Color customization**: The floating messages will be displayed in a predefined color (currently set to white, i.e., 255,255,255).
-- **External configuration support**: The plugin now allows loading the configuration from an external JSON file called `ItemDecoConfig.json` inside the `tshock/ItemDeco/` folder to customize the colors and display.
-
-## Installation
-
-1. **Download the plugin**: Get the plugin's DLL file.
-2. **Place in the plugins folder**: Copy the DLL file into the `plugins` folder of your TShock installation.
-3. **Restart the server**: Restart the server to load the plugin.
 
 > `ItemDecoration.dll`
 > `LazyAPI.dll`
 > `linq2db.dll`
 
-## Usage
+## Usos
 
-- Generally, I make PlugAndPlay codes, so you can use it without touching anything.
-- Once installed and activated, no additional commands are required. The plugin will start working automatically, displaying the item name when you switch objects.
-- The configuration file `ItemDecoConfig.json` is located in the `tshock/ItemDeco/` folder and allows customizing the floating message colors and other parameters. If the file does not exist, it will be generated with a default configuration.
+- Generalmente hago códigos PlugAndPlay, para que puedas usarlos sin tocar nada. - Una vez instalado y activado, no se requieren comandos adicionales. El complemento comenzará a funcionar automáticamente y mostrará el nombre del elemento cuando cambie de objeto. - El archivo de configuración `ItemDecoConfig.json` se encuentra en la carpeta `tshock/ItemDeco/` y permite personalizar los colores de los mensajes flotantes y otros parámetros. Si el archivo no existe, se generará con una configuración predeterminada. ## Permisos No se requieren permisos específicos para utilizar este complemento. Todos los jugadores podrán ver el nombre del elemento que tienen. ## Requisitos - **TShock**: este complemento requiere una instalación de TShock para Terraria. - **Versión TShock**: este complemento está diseñado para funcionar con TShock API v2.1. ## Contribuciones Si desea contribuir al desarrollo de este complemento, no dude en bifurcar el repositorio y enviar sus mejoras o correcciones. Cualquier comentario es muy apreciado.
 
-## Permissions
+## Autores
 
-No specific permissions are required to use this plugin. All players will be able to see the item name they are holding.
-
-## Requirements
-
-- **TShock**: This plugin requires a TShock installation for Terraria.
-- **TShock Version**: This plugin is designed to work with the TShock API v2.1.
-
-## Contributions
-
-If you want to contribute to the development of this plugin, feel free to fork the repository and submit your improvements or fixes. Any feedback is greatly appreciated.
-
-## Authors
-
-- **[FrankV22](https://github.com/itsFrankV22)**: Lead developer.
+- **[player177](https://github.com/Player177-YT)**: main translator
 - **[Soofa](https://github.com/Soof4)**: Contributor.
 - **[THENX](https://github.com/THEXN)**: Contributor and support in Chinese
 
-## License
+## Licencia
 
-This project is licensed under the MIT License. For more details, please refer to the LICENSE file.
-
-## Support
-
-If you encounter any issues or have questions, feel free to open an issue on the repository or contact us directly.
-
----
-
-Enjoy using **ItemDeco** and enhance your Terraria experience!
-
+Este proyecto está bajo la licencia MIT. Para obtener más detalles, consulte el archivo de LICENCIA. ##Soporte Si encuentra algún problema o tiene preguntas, no dude en abrir un problema en el repositorio o contactarnos directamente. --- ¡Disfruta usando **ItemDeco** y mejora tu experiencia Terraria!
