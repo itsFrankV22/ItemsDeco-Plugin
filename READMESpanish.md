@@ -1,5 +1,5 @@
 # ItemDeco Plugin
-- 我们现在使用遥测，您通过安装插件和任何其他既定政策来接受使用此工具
+- Ahora usamos telemetria, aceptas el uso de esta herramienta al instalar el plugin, y cualquier otra politica establecida
 
 
 - If you speak another language please visit: **[English](https://github.com/itsFrankV22/ItemSuffixBelowName/blob/master/README.md)**
