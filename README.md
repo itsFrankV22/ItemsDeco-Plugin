@@ -1,7 +1,5 @@
 # ItemsDeco Plugin
-- **Now Compatible with** **[Floating-MessageChat](https://github.com/itsFrankV22/FloatingText-Chat)**
-
-- **Not compatible with the new version of TRC by Narnia (We are working on fixing it)**
+- We now use telemetry, you accept the use of this tool by installing the plugin, and any other established policy
 
 
 - Si hablas otro idioma por favor visita: **[Spanish](https://github.com/itsFrankV22/ItemSuffixBelowName/blob/master/READMESpanish.md)**
@@ -31,7 +29,6 @@ The **ItemsDeco** is an extension for **TShock** that displays a decoration in t
 
 > `ItemDecoration.dll`
 > `LazyAPI.dll`
-> `linq2db.dll`
 
 ## Usage
 
