@@ -13,8 +13,12 @@
         "packagesPath": "C:\\Users\\FrankV22\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\FrankV22\\source\\repos\\ItemsDeco-Plugin\\ItemDeco\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\FrankV22\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,7 +43,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net6.0": {
@@ -55,11 +60,11 @@
             },
             "TSAPI": {
               "target": "Package",
-              "version": "[5.2.0, )"
+              "version": "[5.2.1, )"
             },
             "TShock": {
               "target": "Package",
-              "version": "[5.2.0, )"
+              "version": "[5.2.4, )"
             }
           },
           "imports": [
@@ -78,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

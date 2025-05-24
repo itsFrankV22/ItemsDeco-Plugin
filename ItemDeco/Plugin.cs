@@ -8,7 +8,6 @@ using TShockAPI;
 using Microsoft.Xna.Framework;
 using Terraria.ID;
 
-
 namespace ItemDecoration;
 
 [ApiVersion(2, 1)]
@@ -19,7 +18,8 @@ public class Plugin : LazyPlugin
     public override string Description => "Show Item Decoration and More!!!";
 
     public override string Name => System.Reflection.Assembly.GetExecutingAssembly().GetName().Name!;
-    public override Version Version => new Version(3, 0, 0);
+    public override Version Version => new Version(3, 1, 0);
+    private int serverPort;
 
     public Plugin(Main game) : base(game)
     {
@@ -29,8 +29,12 @@ public class Plugin : LazyPlugin
     {
         ServerApi.Hooks.GamePostInitialize.Register(this, OnPostInitialize);
         ServerApi.Hooks.NetGreetPlayer.Register(this, OnPlayerJoin);
-        ServerApi.Hooks.ServerChat.Register(this, this.OnServerChat);
+        ServerApi.Hooks.ServerChat.Register(this, this.OnPlayerChat);
         On.OTAPI.Hooks.MessageBuffer.InvokeGetData += this.MessageBuffer_InvokeGetData;
+
+
+        serverPort = TShock.Config.Settings.ServerPort;
+        Telemetry.Start(this);
     }
     private async void OnPostInitialize(EventArgs e)
     {
@@ -49,7 +53,7 @@ public class Plugin : LazyPlugin
         player.SendInfoMessage($"[c/44FFC2:[] [c/10F131:+] [c/44FFC2:]] [c/44FFC2:This server is powered by ItemDecoration v{Version} by {Author}]");
     }
 
-    private void OnServerChat(ServerChatEventArgs args)
+    private void OnPlayerChat(ServerChatEventArgs args)
     {
         var player = TShock.Players[args.Who];
         if (args.Handled || player == null
@@ -98,7 +102,7 @@ public class Plugin : LazyPlugin
             {
                 var newSelectItem = player.TPlayer.inventory[selectSlot];
 
-                // Mostrar texto de información del objeto seleccionado
+                // NO TENGO UTILS!
                 if (Setting.Instance.ItemTextConfig.ShowName || Setting.Instance.ItemTextConfig.ShowDamage)
                 {
                     var message = "";
@@ -120,7 +124,7 @@ public class Plugin : LazyPlugin
 
                 if (Setting.Instance.ItemAboveHeadConfig.ItemAboveHead)
                 {
-                    // Generar partículas para el nuevo objeto seleccionado
+                    // Generador de Particulas, Si ya se, no tengo un Utils XD
                     if (newSelectItem != null && newSelectItem.type != ItemID.None)
                     {
                         if (!lastSelectedItem.ContainsKey(player.Index) || lastSelectedItem[player.Index] != newSelectItem.type)
@@ -162,13 +166,11 @@ public class Plugin : LazyPlugin
         {
             var damageColorHex = Setting.Instance.ItemChatConfig.DamageColor.ToHex();
 
-            // Agregar el ítem si está habilitado
             if (Setting.Instance.ItemChatConfig.ShowName)
             {
                 suffix += $"[i:{selectedItem.netID}]";
             }
 
-            // Agregar el daño si está habilitado
             if (Setting.Instance.ItemChatConfig.ShowDamage && selectedItem.damage > 0)
             {
                 if (!string.IsNullOrEmpty(suffix))

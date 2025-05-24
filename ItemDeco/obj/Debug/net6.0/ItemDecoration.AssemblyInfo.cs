@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ItemDecoration")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a182192bd12e716b11f0f08cb234d9a2b5905549")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+34d4be41447e7b5bb7b8a4fc062ce9c86faf2390")]
 [assembly: System.Reflection.AssemblyProductAttribute("ItemDecoration")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ItemDecoration")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

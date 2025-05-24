@@ -1,0 +1,16 @@
+C:\Users\FrankV22\source\repos\ItemsDeco-Plugin\ItemDeco\bin\Release\net6.0\HttpServer.dll
+C:\Users\FrankV22\source\repos\ItemsDeco-Plugin\ItemDeco\bin\Release\net6.0\ItemDecoration.deps.json
+C:\Users\FrankV22\source\repos\ItemsDeco-Plugin\ItemDeco\bin\Release\net6.0\ItemDecoration.dll
+C:\Users\FrankV22\source\repos\ItemsDeco-Plugin\ItemDeco\bin\Release\net6.0\ItemDecoration.pdb
+C:\Users\FrankV22\source\repos\ItemsDeco-Plugin\ItemDeco\bin\Release\net6.0\LazyAPI.dll
+C:\Users\FrankV22\source\repos\ItemsDeco-Plugin\ItemDeco\obj\Release\net6.0\ItemDecoration.csproj.AssemblyReference.cache
+C:\Users\FrankV22\source\repos\ItemsDeco-Plugin\ItemDeco\obj\Release\net6.0\ItemDecoration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FrankV22\source\repos\ItemsDeco-Plugin\ItemDeco\obj\Release\net6.0\ItemDecoration.AssemblyInfoInputs.cache
+C:\Users\FrankV22\source\repos\ItemsDeco-Plugin\ItemDeco\obj\Release\net6.0\ItemDecoration.AssemblyInfo.cs
+C:\Users\FrankV22\source\repos\ItemsDeco-Plugin\ItemDeco\obj\Release\net6.0\ItemDecoration.csproj.CoreCompileInputs.cache
+C:\Users\FrankV22\source\repos\ItemsDeco-Plugin\ItemDeco\obj\Release\net6.0\ItemDecoration.sourcelink.json
+C:\Users\FrankV22\source\repos\ItemsDeco-Plugin\ItemDeco\obj\Release\net6.0\ItemDeco.82298172.Up2Date
+C:\Users\FrankV22\source\repos\ItemsDeco-Plugin\ItemDeco\obj\Release\net6.0\ItemDecoration.dll
+C:\Users\FrankV22\source\repos\ItemsDeco-Plugin\ItemDeco\obj\Release\net6.0\refint\ItemDecoration.dll
+C:\Users\FrankV22\source\repos\ItemsDeco-Plugin\ItemDeco\obj\Release\net6.0\ItemDecoration.pdb
+C:\Users\FrankV22\source\repos\ItemsDeco-Plugin\ItemDeco\obj\Release\net6.0\ref\ItemDecoration.dll

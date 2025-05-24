@@ -47,7 +47,5 @@ C:\Users\FrankV22\source\repos\ItemsDeco-Plugin\ItemDeco\bin\Debug\net6.0\ItemDe
 C:\Users\FrankV22\source\repos\ItemsDeco-Plugin\ItemDeco\bin\Debug\net6.0\ItemDecoration.dll
 C:\Users\FrankV22\source\repos\ItemsDeco-Plugin\ItemDeco\bin\Debug\net6.0\ItemDecoration.pdb
 C:\Users\FrankV22\source\repos\ItemsDeco-Plugin\ItemDeco\bin\Debug\net6.0\LazyAPI.dll
-C:\Users\FrankV22\source\repos\ItemsDeco-Plugin\ItemDeco\bin\Debug\net6.0\linq2db.dll
-C:\Users\FrankV22\source\repos\ItemsDeco-Plugin\ItemDeco\bin\Debug\net6.0\LazyAPI.pdb
 C:\Users\FrankV22\source\repos\ItemsDeco-Plugin\ItemDeco\obj\Debug\net6.0\ItemDeco.82298172.Up2Date
 C:\Users\FrankV22\source\repos\ItemsDeco-Plugin\ItemDeco\obj\Debug\net6.0\ref\ItemDecoration.dll
