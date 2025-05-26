@@ -55,26 +55,31 @@ namespace CheckUpdates
 
         public static async Task CheckUpdateVerbose(TerrariaPlugin? plugin)
         {
-            var VersionInstalled = await RequestLatestVersion();
-            var AvilableVersion = plugin.Version;
-
             if (plugin == null) return;
 
             TShock.Log.ConsoleInfo($"[ ItemDecoration ] Checking for updates...");
 
-            bool isUpToDate = await IsUpToDate(plugin);
+            Version? latestVersion = await RequestLatestVersion(); // última versión en GitHub
+            Version currentVersion = plugin.Version;               // versión local instalada
 
+            if (latestVersion == null)
+            {
+                TShock.Log.ConsoleWarn("[ ItemDecoration ] Could not determine the latest version.");
+                return;
+            }
+
+            bool isUpToDate = currentVersion >= latestVersion;
 
             if (isUpToDate)
             {
-                TShock.Log.ConsoleInfo($"[ ItemDecoration ] Plugin is up to date!!!");
+                TShock.Log.ConsoleInfo($"[ ItemDecoration ] Plugin is up to date! (v{currentVersion})");
             }
             else
             {
                 TShock.Log.ConsoleError("**********************************************");
-                TShock.Log.ConsoleError("[ ItemDecoration ] Plugin is no up to date!!!");
-                TShock.Log.ConsoleInfo($"      INSTALLED: {AvilableVersion}");
-                TShock.Log.ConsoleInfo($"      AVAILABLE: {VersionInstalled}");
+                TShock.Log.ConsoleError("[ ItemDecoration ] Plugin is NOT up to date!");
+                TShock.Log.ConsoleInfo($"      INSTALLED: v{currentVersion}");
+                TShock.Log.ConsoleInfo($"      AVAILABLE: v{latestVersion}");
                 TShock.Log.ConsoleError("**********************************************");
             }
         }
